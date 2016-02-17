@@ -22,10 +22,10 @@
     "rules"
   ],
   "dependencies": {
-    "all-eslint-rules": "^1.0.1"
+    "all-eslint-rules": "^2.0.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config-node-legacy": "^1.0.1",
+    "@shinnn/eslint-config-node-legacy": "^2.0.0",
     "array-difference": "^0.0.1",
     "ava": "^0.10.0"
   }

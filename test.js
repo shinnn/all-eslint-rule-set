@@ -1,9 +1,7 @@
-'use strict';
-
-const test = require('ava');
-const arrayDifference = require('array-difference');
-const allEslintRules = require('all-eslint-rules');
-const allEslintRuleSet = require('.');
+import test from 'ava';
+import arrayDifference from 'array-difference';
+import allEslintRules from 'all-eslint-rules';
+import allEslintRuleSet from '.';
 
 test('Exposes a Set.', t => {
   t.true(allEslintRuleSet instanceof global.Set);

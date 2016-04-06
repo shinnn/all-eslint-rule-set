@@ -8,5 +8,5 @@ test('Exposes a Set.', t => {
 });
 
 test('Includes all the ESLint rules.', t => {
-  t.same(arrayDifference(Array.from(allEslintRuleSet), allEslintRules), []);
+  t.deepEqual(arrayDifference(Array.from(allEslintRuleSet), allEslintRules), []);
 });
